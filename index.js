@@ -11,6 +11,12 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = () => {
-  return tutorials
-}
+
+//split
+// How can we "iterate" through individual words in a string?
+// Can we execute an interation inside an iteration? How?
+// How can we capitalize just the first letter in a word?
+
+const words = tutorials.split(" ");
+const capitalize = words.map(words => words.toUpperCase());
+
